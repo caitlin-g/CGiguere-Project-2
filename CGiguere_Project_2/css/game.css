@@ -1,0 +1,29 @@
+.background    { background-image: url("img/cement-wall-texture.jpg");
+                 table-layout: fixed;
+                 background-size: 120px 100px;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background-image: url("img/Lava-texture.png");
+				 background-size: 30px 20px;}
+.wall          { background-image: url("img/lavarock.jpg");
+				 background-size: 120px 100px;}
+
+.actor  { position: absolute;  }
+.coin   { background: rgb(218, 165, 32); }
+.player { background: rgb(64, 64, 64); }
+.monster{ background-image: url("img/monster-cartoon.png");
+		  background-size: 20px 20px;}
+.booster{ background: rgb(70, 204, 8); }
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
